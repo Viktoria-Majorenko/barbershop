@@ -1,0 +1,24 @@
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: 1px solid purple;
+    @media screen and (min-width: 448px){
+        width: 448px;
+    }
+
+    @media screen and (min-width: 720px){
+        width: 720px;
+    }
+
+    @media screen and (min-width: 1200px){
+        width: 1200px;
+
+    }
+}
+
+body{
+    background-color: aquamarine;
+}
