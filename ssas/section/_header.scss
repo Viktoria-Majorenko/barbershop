@@ -1,8 +1,9 @@
 .header-menu{
-
+display: flex;
+justify-content: center;
 }
 
-&__subtitle{
+.heder-subtitle{
     color: $color-gray;
 font-family: "Open Sans";
 font-size: 16px;
