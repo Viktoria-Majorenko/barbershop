@@ -1,0 +1,36 @@
+.hero{
+    padding-top: 210px;
+    padding-bottom: 210px;
+    background-color: gray;
+
+
+    &__text{
+        color: rgba(157, 164, 189, 0.60);
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.1px;
+        text-transform: uppercase;
+        
+    }
+
+
+
+    &__title{
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        
+    }
+
+
+
+    &__desk{
+
+    }
+}
+

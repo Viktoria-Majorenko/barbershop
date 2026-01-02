@@ -22,10 +22,6 @@
   }
 }
 
-body {
-  background-color: white;
-}
-
 a {
   text-decoration: none;
 }
@@ -45,4 +41,43 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+.header {
+  padding-top: 40px;
+  background-color: gray;
+}
+.header__box {
+  display: flex;
+}
+.header__img {
+  width: 68px;
+  height: 65px;
+}
+.header__btn {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+}
+.hero {
+  padding-top: 210px;
+  padding-bottom: 210px;
+  background-color: gray;
+}
+.hero__text {
+  color: rgba(157, 164, 189, 0.6);
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.hero__title {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
 }/*# sourceMappingURL=main.css.map */

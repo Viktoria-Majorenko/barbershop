@@ -1,16 +1,127 @@
-.header-menu{
-display: flex;
-justify-content: center;
+// .header-menu{
+// display: flex;
+// justify-content: center;
+// }
+
+// .heder-subtitle{
+//     color: $color-gray;
+// font-family: "Open Sans";
+// font-size: 16px;
+// font-weight: 400;
+// line-height: 26px;
+// letter-spacing: 0.32px;
+// margin-left: 31px;
+// margin-right: 168px;
+
+// }
+
+
+// .header-subtitle{
+//     color: rgba(157, 164, 189, 0.60);
+//   font-family: "Open Sans";
+//   font-size: 11px;
+//   font-weight: 600;
+//   letter-spacing: 1.1px;
+//   text-transform: uppercase;
+  
+//   display: flex;
+//   justify-content: left;
+//   gap: 111px;
+//   }
+  
+  
+//   .header-title{
+//     color: #FFF;
+//   font-family: Raleway;
+//   font-size: 48px;
+//   font-style: normal;
+//   font-weight: 700;
+//   letter-spacing: 2.4px;
+  
+//   }
+  
+  
+//   .header-text{
+//     color: #9DA4BD;
+//   font-family: "Open Sans";
+//   font-size: 16px;
+//   font-weight: 400;
+//   line-height: 26px;
+//   letter-spacing: 0.32px;
+//   }
+  
+//   .item-city{
+//     color: #303030;
+//   font-family: "Open Sans";
+//   font-size: 11px;
+//   font-weight: 600;
+//   text-transform: uppercase;
+  
+//   }
+  
+//   .title-city{
+//     color: #555;
+//   font-family: "Open Sans";
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 26px;
+//   letter-spacing: 0.32px
+//   }
+  
+//   .text-city{
+//     color: #555;
+//     font-family: "Open Sans";
+//     font-size: 14px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 26px;
+//     letter-spacing: 0.28px;  
+//   }
+  
+//   .button-city{
+//     color: #303030;
+//   font-family: "Open Sans";
+//   font-size: 12px;
+//   font-style: normal;
+//   font-weight: 600;
+//   line-height: normal;
+//   letter-spacing: 1.08px;
+//   text-transform: uppercase;
+  
+//   }
+
+
+
+
+
+.header{
+    padding-top: 40px;
+    background-color: gray;
+    
+
+    &__box{
+        display: flex;
+        
+
+    }
+
+    &__img{
+        width: 68px;
+        height: 65px;
+    }
+
+    
+
+    &__btn{
+        background-color: transparent;
+        border: none;
+        margin-left: auto;
+    }
+
+
+    &__button{
+        
+    }
 }
 
-.heder-subtitle{
-    color: $color-gray;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0.32px;
-margin-left: 31px;
-margin-right: 168px;
-
-}
