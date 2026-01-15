@@ -1,0 +1,74 @@
+.work{
+    padding-bottom: 81px;
+    padding-top: 81px;
+    background-color: rgb(192, 192, 206);
+
+
+    &__text1{
+    color: #303030;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 111px;
+    }
+
+&__title{
+    color: #303030;
+    font-family: Raleway;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+    margin-left: 31px;
+    margin-right: 31px;
+}  
+
+&__text2{
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.32px;
+    margin-bottom: 20px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+&__text3{
+
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.28px;
+    margin-bottom: 40px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+&__btn{
+    color: #303030;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 1px solid #FF6C00;
+    background: transparent;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+}

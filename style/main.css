@@ -72,6 +72,7 @@ img {
   line-height: normal;
   letter-spacing: 1.1px;
   text-transform: uppercase;
+  margin-left: 31px;
 }
 .hero__title {
   color: #FFF;
@@ -80,4 +81,267 @@ img {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2.4px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.hero__desk {
+  color: #9DA4BD;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.32px;
+}
+
+.work {
+  padding-bottom: 81px;
+  padding-top: 81px;
+  background-color: rgb(192, 192, 206);
+}
+.work__text1 {
+  color: #303030;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 111px;
+}
+.work__title {
+  color: #303030;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  margin-bottom: 20px;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+.work__text2 {
+  color: #555;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.32px;
+  margin-bottom: 20px;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+.work__text3 {
+  color: #555;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.28px;
+  margin-bottom: 40px;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+.work__btn {
+  color: #303030;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 1px solid #FF6C00;
+  background: transparent;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+
+.servicess {
+  padding-bottom: 84px;
+  padding-top: 84px;
+  background-color: rgb(87, 85, 85);
+}
+.servicess__item1 {
+  color: rgba(157, 164, 189, 0.6);
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 31px;
+}
+.servicess__item2 {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: 44px;
+  margin-left: 31px;
+}
+.servicess .price-list {
+  color: #9DA4BD;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  margin-bottom: 44px;
+  margin-left: 31px;
+}
+.servicess__item {
+  display: flex;
+  justify-content: space-between;
+}
+.servicess__btn {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 1px solid #FF6C00;
+  background: transparent;
+  margin-left: 31px;
+}
+
+.traditional {
+  padding-bottom: 84px;
+  padding-top: 84px;
+  background-color: greenyellow;
+}
+.traditional__subtitle {
+  color: #303030;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 31px;
+}
+.traditional__title {
+  color: #303030;
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  margin-bottom: 20px;
+  margin-left: 31px;
+}
+.traditional__text {
+  color: #555;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  margin-bottom: 44px;
+  margin-left: 31px;
+}
+.traditional__caption {
+  color: #303030;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.traditional__desk {
+  color: #303030;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.traditional__item1 {
+  background: #F7F7F7;
+  width: 194px;
+  height: 133px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.traditional .traditional-list1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.traditional__item1:nth-child(2) {
+  transform: translateY(35px);
+}
+.traditional__item1:nth-child(4) {
+  transform: translateY(35px);
+}
+
+.barbers {
+  padding-bottom: 84px;
+  padding-top: 84px;
+  background-color: rgb(159, 150, 143);
+}
+.barbers__item1 {
+  color: #303030;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.barbers__item2 {
+  color: #303030;
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  margin-bottom: 44px;
+}
+.barbers__title {
+  color: #303030;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+.barbers__text {
+  color: #FF6C00;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
