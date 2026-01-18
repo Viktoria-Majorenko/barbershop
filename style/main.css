@@ -344,4 +344,39 @@ img {
   line-height: normal;
   letter-spacing: 0.28px;
   margin-bottom: 30px;
+}
+
+.means {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: rgb(177, 153, 153);
+}
+.means__title {
+  color: #303030;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.booking {
+  padding-bottom: 81px;
+  padding-top: 81px;
+  background-color: rgb(125, 125, 164);
+}
+.booking__title {
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.booking__book {
+  border-radius: 25px;
+  border: 1px solid #FF6C00;
 }/*# sourceMappingURL=main.css.map */
