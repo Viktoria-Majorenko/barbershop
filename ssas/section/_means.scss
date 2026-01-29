@@ -1,7 +1,7 @@
 .means{
     padding-top: 84px;
     padding-bottom: 84px;
-    background-color: rgb(177, 153, 153);
+    background-color: #FFF;
 
 
 &__title{
@@ -12,10 +12,25 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    &::before{
+        content: "";
+        display: block;
+        width: 60px ;
+        height: 1px ;
+        background-color: #303030;
+        margin-right: 20px;
+    }
 }
 
 
-
+&__list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 71px;
+}
 
 
 

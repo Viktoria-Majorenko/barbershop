@@ -1,0 +1,174 @@
+.contact{
+padding-top: 84px;
+background-color: rgb(30, 28, 35);
+
+&__title{
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.1px;
+margin-bottom: 40px;
+
+}
+
+&__item1{
+    margin-bottom: 20px;
+
+    &:last-child{
+        margin-bottom: 0px;
+
+    }
+}
+
+
+
+&__text1{
+    margin-top: 44px ;
+    margin-bottom: 20px;
+}
+
+&__text2{
+    margin-bottom: 84px;
+}
+
+&__region{
+    color: #9DA4BD;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    
+
+}
+
+&__tel{
+    color: #9DA4BD;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.36px;
+
+}
+
+&__email{
+    color: #9DA4BD;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    
+}
+
+&__text1{
+    color: #FFF;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+gap: 20px;
+
+&::before{
+content: "";
+background: rgba(157, 164, 189, 0.40);
+display: block;
+width: 60px;
+height: 1px;
+
+}
+
+}
+
+&__text2{
+    color: #9DA4BD;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.36px;
+
+}
+
+&__div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-bottom: 27px;    
+}
+
+&__inst{
+    color: #303030;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.2px;
+gap: 40px;
+display: flex;
+align-items: center;
+
+&::before{
+    content: "";
+    display: block;
+    background: #303030;
+    width: 60px;
+    height: 1px;
+}
+
+
+}
+
+
+&__youtube{
+    color: #303030;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.2px;
+
+}
+
+&__copy{
+    color: #9DA4BD;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.2px;
+
+}
+
+&__list{
+    background-color: #FFF;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+.cont{
+    background-color: #FFF;
+}
+}

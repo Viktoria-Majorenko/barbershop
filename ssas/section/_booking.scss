@@ -1,7 +1,8 @@
 .booking{
-    padding-bottom: 81px;
-    padding-top: 81px;
-    background-color: rgb(125, 125, 164);
+    padding-bottom: 84px;
+    padding-top: 84px;
+    background: #191C26;
+
 
 
 &__title{
@@ -13,18 +14,82 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 2.1px;
+    margin-bottom: 44px;
     
 }
 
+&__form{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
 
 
+&__name{
+    color: #FFF;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+margin-bottom: 44px;
+
+}
+
+&__input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    width: 100%;        
+}
 
 
+&__phone{
+    color: rgba(157, 164, 189, 0.40);
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+margin-bottom: 44px;
+
+}
+
+&__message{
+    color: rgba(157, 164, 189, 0.40);
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+margin-bottom: 44px;
+}
 
 
-&__book{
+&__btn{
     border-radius: 25px;
-border: 1px solid #FF6C00;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+    padding: 12px 38px;
+    width: 160.0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
 
 
 }
