@@ -17,6 +17,9 @@ margin-bottom: 40px;
 
 &__item1{
     margin-bottom: 20px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
 
     &:last-child{
         margin-bottom: 0px;
@@ -35,6 +38,14 @@ margin-bottom: 40px;
     margin-bottom: 84px;
 }
 
+&__icon{
+    stroke-width: 1px;
+    stroke: #9DA4BD;
+    width: 16.0px;
+    height: 18.0px;
+    fill: transparent;
+}
+
 &__region{
     color: #9DA4BD;
     font-family: "Open Sans";
@@ -43,9 +54,10 @@ margin-bottom: 40px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.36px;
-    
-
 }
+
+
+
 
 &__tel{
     color: #9DA4BD;
@@ -57,6 +69,9 @@ line-height: 30px;
 letter-spacing: 0.36px;
 
 }
+
+
+
 
 &__email{
     color: #9DA4BD;
@@ -135,6 +150,8 @@ align-items: center;
     width: 60px;
     height: 1px;
 }
+
+
 
 
 }

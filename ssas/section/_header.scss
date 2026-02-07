@@ -106,6 +106,14 @@
 
     }
 
+&__logo{
+
+    @media screen and ( min-width: 720px){
+      display: none;
+        
+    }
+}
+
     &__img{
         width: 68px;
         height: 65px;
@@ -117,11 +125,15 @@
         background-color: transparent;
         border: none;
         margin-left: auto;
-    }
 
-
-    &__button{
+        @media screen and ( min-width: 720px){
+      display: none;
         
+        }
     }
+
+
+
+   
 }
 

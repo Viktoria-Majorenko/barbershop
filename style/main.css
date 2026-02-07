@@ -50,6 +50,11 @@ img {
 .header__box {
   display: flex;
 }
+@media screen and (min-width: 720px) {
+  .header__logo {
+    display: none;
+  }
+}
 .header__img {
   width: 68px;
   height: 65px;
@@ -59,6 +64,12 @@ img {
   border: none;
   margin-left: auto;
 }
+@media screen and (min-width: 720px) {
+  .header__btn {
+    display: none;
+  }
+}
+
 .hero {
   padding-top: 210px;
   padding-bottom: 210px;
@@ -499,6 +510,9 @@ img {
 }
 .contact__item1 {
   margin-bottom: 20px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
 }
 .contact__item1:last-child {
   margin-bottom: 0px;
@@ -509,6 +523,13 @@ img {
 }
 .contact__text2 {
   margin-bottom: 84px;
+}
+.contact__icon {
+  stroke-width: 1px;
+  stroke: #9DA4BD;
+  width: 16px;
+  height: 18px;
+  fill: transparent;
 }
 .contact__region {
   color: #9DA4BD;
