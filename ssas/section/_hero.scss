@@ -3,6 +3,10 @@
     padding-bottom: 210px;
     background-color: gray;
 
+    @media screen and (min-width:720px){
+        padding-bottom: 42px;
+    }
+
 
     &__text{
         color: rgba(157, 164, 189, 0.60);
@@ -12,7 +16,20 @@
         line-height: normal;
         letter-spacing: 1.1px;
         text-transform: uppercase;
-        margin-left: 31px;
+            
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &::before{
+            content:"";
+            display: block;
+            width: 60px;
+            height: 1px;
+            background: rgba(157, 164, 189, 0.60);
+
+
+        }
     }
 
 
@@ -32,12 +49,51 @@
 
 
     &__desk{
+        width: 340px;
         color: #9DA4BD;
         font-family: "Open Sans";
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
         letter-spacing: 0.32px;
+
+        @media screen and (min-width:720px){
+            font-size: 18px;
+            width: 380px;
+        }
     }
+
+    &__box{
+        display: flex;
+        gap: 26px;
+        margin-top: 173px;
+        justify-content: end;
+    }
+
+&__item{
+    color: rgba(157, 164, 189, 0.60);
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    display: none;
+
+    &::after{
+        content: "";
+        display: block;
+            width: 60px;
+            height: 1px;
+            background: rgba(157, 164, 189, 0.60);
+            margin-top: 8px;
+    }
+
+
+
+    @media screen and (min-width:720px){
+        display: block;
+    }
+}
 }
 

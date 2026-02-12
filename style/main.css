@@ -59,6 +59,75 @@ img {
   width: 68px;
   height: 65px;
 }
+.header .header__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+@media screen and (max-width: 719px) {
+  .header .header__list {
+    display: none;
+  }
+}
+.header__link {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.header__link:hover {
+  color: #FF6C00;
+}
+.header__items {
+  margin-left: auto;
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  align-items: end;
+}
+@media screen and (min-width: 720px) {
+  .header__items {
+    display: flex;
+  }
+}
+.header__bttn {
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  border: 1px solid #FF6C00;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  padding: 12px 20px;
+}
+.header__phone {
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.header__img1 {
+  width: 330px;
+  height: 235px;
+}
+@media screen and (max-width: 719px) {
+  .header__img1 {
+    display: none;
+  }
+}
 .header__btn {
   background-color: transparent;
   border: none;
@@ -75,6 +144,11 @@ img {
   padding-bottom: 210px;
   background-color: gray;
 }
+@media screen and (min-width: 720px) {
+  .hero {
+    padding-bottom: 42px;
+  }
+}
 .hero__text {
   color: rgba(157, 164, 189, 0.6);
   font-family: "Open Sans";
@@ -83,7 +157,16 @@ img {
   line-height: normal;
   letter-spacing: 1.1px;
   text-transform: uppercase;
-  margin-left: 31px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero__text::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.6);
 }
 .hero__title {
   color: #FFF;
@@ -96,6 +179,7 @@ img {
   margin-top: 20px;
 }
 .hero__desk {
+  width: 340px;
   color: #9DA4BD;
   font-family: "Open Sans";
   font-size: 16px;
@@ -103,11 +187,64 @@ img {
   line-height: 26px;
   letter-spacing: 0.32px;
 }
+@media screen and (min-width: 720px) {
+  .hero__desk {
+    font-size: 18px;
+    width: 380px;
+  }
+}
+.hero__box {
+  display: flex;
+  gap: 26px;
+  margin-top: 173px;
+  justify-content: end;
+}
+.hero__item {
+  color: rgba(157, 164, 189, 0.6);
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  display: none;
+}
+.hero__item::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.6);
+  margin-top: 8px;
+}
+@media screen and (min-width: 720px) {
+  .hero__item {
+    display: block;
+  }
+}
 
 .work {
   padding-bottom: 81px;
   padding-top: 81px;
   background: #FFF;
+}
+.work .container {
+  display: flex;
+  justify-content: space-between;
+}
+.work__box {
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  .work__box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.work__img1 {
+  width: 330px;
+  height: 235px;
 }
 .work__text1 {
   color: #303030;
@@ -132,6 +269,11 @@ img {
   margin-left: 31px;
   margin-right: 31px;
 }
+@media screen and (min-width: 720px) {
+  .work__title {
+    width: 330px;
+  }
+}
 .work__text2 {
   color: #555;
   font-family: "Open Sans";
@@ -144,6 +286,11 @@ img {
   margin-left: 31px;
   margin-right: 31px;
 }
+@media screen and (min-width: 720px) {
+  .work__text2 {
+    width: 330px;
+  }
+}
 .work__text3 {
   color: #555;
   font-family: "Open Sans";
@@ -155,6 +302,12 @@ img {
   margin-bottom: 40px;
   margin-left: 31px;
   margin-right: 31px;
+}
+@media screen and (min-width: 720px) {
+  .work__text3 {
+    width: 330px;
+    margin-bottom: 77px;
+  }
 }
 .work__btn {
   color: #303030;
@@ -170,6 +323,7 @@ img {
   background: transparent;
   margin-left: 31px;
   margin-right: 31px;
+  padding: 12px 20px;
 }
 
 .servicess {
@@ -227,6 +381,7 @@ img {
   border: 1px solid #FF6C00;
   background: transparent;
   margin-left: 31px;
+  padding: 12px 20px;
 }
 
 .traditional {
