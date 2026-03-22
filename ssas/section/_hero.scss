@@ -7,6 +7,8 @@
         padding-bottom: 42px;
     }
 
+    
+
 
     &__text{
         color: rgba(157, 164, 189, 0.60);
@@ -44,12 +46,15 @@
         margin-bottom: 20px;
         margin-top: 20px;   
 
+
+        @media screen and (min-width:1200px){
+           font-size: 72px  ;
+        }
     }
 
 
 
     &__desk{
-        width: 340px;
         color: #9DA4BD;
         font-family: "Open Sans";
         font-size: 16px;
@@ -57,10 +62,17 @@
         line-height: 26px;
         letter-spacing: 0.32px;
 
+
+
         @media screen and (min-width:720px){
             font-size: 18px;
-            width: 380px;
         }
+
+        @media screen and (min-width:1200px){
+           font-size: 18px;
+        }
+
+
     }
 
     &__box{

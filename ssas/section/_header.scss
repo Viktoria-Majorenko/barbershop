@@ -98,11 +98,16 @@
 .header{
     padding-top: 40px;
     background-color: gray;
+
+   
     
 
     &__box{
         display: flex;
         
+        @media screen and (min-width:1200px){
+           align-items: center;
+        }
 
     }
 
@@ -155,6 +160,12 @@
 
         @media screen and (min-width:720px){
             display: flex;
+        }
+
+        @media screen and (min-width:1200px){
+           flex-direction: row-reverse;
+           align-items: center;
+
         }
     }
 

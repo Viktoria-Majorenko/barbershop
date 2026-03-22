@@ -6,6 +6,10 @@
 & .container{
     display: flex;
     justify-content: space-between;
+
+    @media screen and (min-width:1200px){
+        justify-content: flex-start;
+    }
 }
  
 &__box{
@@ -16,12 +20,24 @@
         flex-direction: column;
         gap: 30px; 
     }
+
+
+    @media screen and (min-width:1200px){
+       flex-direction: row;
+
+    }
+    
 }
 
 
 &__img1{
     width: 330.0px;
     height: 235.0px;
+
+    @media screen and (min-width:1200px){
+        width: 270px;
+        height: 100%;
+    }
 
 }
 
@@ -54,7 +70,11 @@
     @media screen and (min-width:720px){
         width: 330px;
 
-     
+    }
+
+    @media screen and (min-width:1200px){
+        font-size: 42px;
+        width: 470px;
     }
 }  
 
@@ -72,6 +92,10 @@
 
     @media screen and (min-width:720px){
         width: 330px;
+    }
+
+    @media screen and (min-width:1200px){
+        width: 420px;
     }
 }
 
@@ -92,6 +116,11 @@
         width: 330px;
         margin-bottom: 77px;
     }
+
+    @media screen and (min-width:1200px){
+        width: 470px;
+        margin-top: 42px;
+    }
 }
 
 &__btn{
@@ -109,5 +138,11 @@
     margin-left: 31px;
     margin-right: 31px;
     padding: 12px 20px;
+
+    @media screen and (min-width:1200px){
+        // margin-top: 42px;
+    }
 }
+
+
 }
