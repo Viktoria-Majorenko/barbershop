@@ -56,9 +56,19 @@
 <section class="work">
     <div class="container">
         <div class="work__box">
-        <img src="./photo/tablet/1barber-tablet@1x.webp" alt="" class="work__img1">
-        <img src="./photo/tablet/barber2-tablet@x.webp" alt="" class="work__img1">
+            <picture>
+                <source srcset="./photo/destop/barber1-destop@1x.webp 1x, ./photo/destop/barber2-destop@2x.webp 2x" media="(min-width:1200px)">
+                <source srcset="./photo/tablet/1barber-tablet@1x.webp 1x, ./photo/tablet/1barber-tablet@2x.webp 2x" media="(min-width:720px)">
+                <img src="./photo/tablet/1barber-tablet@1x.webp" alt="" class="work__img1">
+            </picture>
+       
+            <picture>
+                <source srcset="./photo/destop/barber-tablett@1x.webp 1x, ./photo/destop/barber-tablett@2x.webp 2x" media="(min-width:1200px)">
+                <source srcset="./photo/tablet/2barber-tablet@1x.webp 1x, ./photo/tablet/2barber-tablet@2x.webp 2x" media="(min-width:720px)">
+                <img src="./photo/destop/barber-tablett@1x.webp" alt="" class="work__img1">
+            </picture>
         </div>
+
 
         <div class="work__wrap">
     <p class="work__text1">About</p>
@@ -143,9 +153,15 @@
 
             <p class="barbers__item1">For true enjoyers of the atmosphere</p>
             <h2 class="barbers__item2">Our barbers</h2>
-
             <ul class="barbers__list">
-                <li class="barbers__photo"><img src="./photo/mobile/john-smith@1x.webp" alt="" class="barbers__img">
+                <li class="barbers__photo">
+                    <picture>
+                        <source srcset="./photo/destop/john-smith@1x.webp 1x, ./photo/destop/john-smith@2x.webp 2x" media="(min-width:1200px)">
+                        <source srcset="./photo/tablet/john-smith@1x.webp 1x, ./photo/tablet/john-smith@2x.webp 2x" media="(min-width720px)">
+                        <source srcset="./photo/mobile/john-smith@1x.webp 1x, ./photo/mobile/john-smith@2x.webp 2x" media="(max-width:719px)">
+                        <img src="./photo/mobile/john-smith@1x.webp" alt="" class="barbers__img">
+                    </picture>
+                    
                 <h3 class="barbers__title">John Smith</h3>
                 <p class="barbers__text">Extreme Barber</p>
 
@@ -171,8 +187,14 @@
 
 
             <li class="barbers__photo">
-              <img src="./photo/mobile/michele-doe@1x.webp" alt=""  class="barbers__img">
-              <h3  class="barbers__title">John Smith</h3>
+                <picture>
+                    <source srcset="./photo/destop/michal-doe@1x.webp 1x, ./photo/destop/michal-doe@2x.webp 2x" media="(min-width:1200px)">
+                    <source srcset="./photo/tablet/miechal-doe@1x.webp 1x, ./photo/tablet/miechal-doe@2x.webp 2x" media="(min-width:720px)">
+                    <source srcset="./photo/mobile/michele-doe@1x.webp 1x, ./photo/mobile/michele-doe@2x.webp 2x" media="(max-width:719px)">
+                    <img src="./photo/mobile/michele-doe@1x.webp" alt=""  class="barbers__img">
+                </picture>
+            
+              <h3  class="barbers__title">Michele Doe</h3>
               <p class="barbers__text">Extreme Barber</p>
 
               <ul class="barbers__icon1">
@@ -197,8 +219,14 @@
 
             
             <li class="barbers__photo">
-                <img src="./photo/mobile/alan-black@1x.webp" alt="" class="barbers__img">
-                <h3 class="barbers__title">John Smith</h3>
+                <picture>
+                    <source srcset="./photo/destop/alan-black@1x.webp 1x, ./photo/destop/alan-black@2x.webp 2x" media="(min-width:1200px)">
+                    <source srcset="./photo/tablet/alan-black@1x.webp 1x, ./photo/tablet/alan-black@2x.webp 2x" media="(min-width:720px)">
+                    <source srcset="./photo/mobile/alan-black@1x.webp 1x, ./photo/mobile/alan-black@2x.webp 2x" media="(max-width:719px)">
+                    <img src="./photo/mobile/alan-black@1x.webp" alt="" class="barbers__img">
+                </picture>
+                
+                <h3 class="barbers__title">Alan Black</h3>
                 <p class="barbers__text">Extreme Barber</p>
 
 
@@ -256,10 +284,42 @@
             <h3 class="means__title">In Latin, "barba" means "beard"</h3>
 
             <ul class="means__list">
-                <li class="means__item"><img src="./photo/mobile/Rectangle 25.webp" alt="" class="means__img"></li>
-                <li class="means__item"><img src="./photo/mobile/Rectangle 26.webp" alt="" class="means__img"></li>
-                <li class="means__item"><img src="./photo/mobile/Rectangle 27.webp" alt="" class="means__img"></li>
-                <li class="means__item"><img src="./photo/mobile/Rectangle 28.webp" alt="" class="means__img"></li>
+               
+                <li class="means__item">
+                    <picture>
+                        <source srcset=" ./photo/destop/barba@1x.webp 1x, ./photo/destop/barba@2x.webp 2x" media="(min-width:1200px)">
+                        <source srcset=" ./photo/tablet/barba@1x.webp 1x, ./photo/tablet/barba@2x.webp 2x" media="(min-width:720px)">
+                        <source srcset="./photo/mobile/barba@1x.webp 1x, ./photo/mobile/barba@2x.webp 2x" media="(max-width:719px)">
+                        <img src="./photo/mobile/barba@1x.webp" alt="" class="means__img">
+                    </picture>
+                    
+                </li>
+                <li class="means__item">
+                    <picture>
+                        <source srcset="./photo/destop/means@1x.webp 1x, ./photo/destop/means@2x.webp 2x" media="(min-width:1200px)">
+                        <source srcset="./photo/tablet/means@1x.webp 1x, ./photo/tablet/means@2x.webp 2x" media="(min-width:720px)">
+                        <source srcset="./photo/mobile/means@1x.webp 1x, ./photo/mobile/means@2x.webp 2x" media="(max-width:719px)">
+                        <img src="./photo/mobile/means@1x.webp" alt="" class="means__img">
+                    </picture>
+                </li>
+                <li class="means__item">
+                    <picture>
+                        <source srcset="./photo/destop/bread@1x.webp 1x, ./photo/destop/bread@2x.webp 2x" media="(min-width:1200px)">
+                        <source srcset="./photo/tablet/bread@1x.webp 1x, ./photo/tablet/bread@2x.webp 2x" media="(min-width:720px)">
+                        <source srcset="./photo/mobile/bread@1x.webp 1x, ./photo/mobile/bread@2x.webp 2x" media="(max-width:719px)">
+                        <img src="" alt="" class="means__img">
+                    </picture>
+                    
+                </li>
+                <li class="means__item">
+                    <picture>
+                        <source srcset="./photo/destop/hand@1x.webp 1x, ./photo/destop/hand@2x.webp 2x" media="(min-width:1200px)">
+                        <source srcset="./photo/tablet/hand@1x.webp 1x, ./photo/tablet/hand@2x.webp 2x" media="(min-width:720px)">
+                        <source srcset="./photo/mobile/hand@1x.webp 1x, ./photo/mobile/hand@2x.webp 2x" media="(max-width:719px)">
+                        <img src="./photo/mobile/hand@1x.webp" alt="" class="means__img">
+                    </picture>
+                    
+                </li>
             </ul>
 
         </div>
