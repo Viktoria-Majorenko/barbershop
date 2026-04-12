@@ -1,9 +1,20 @@
 .booking{
-    padding-bottom: 84px;
+    // padding-bottom: 84px;
     padding-top: 84px;
     background: #191C26;
 
+& .container{
+    @media screen and (min-width:1200px){
+        display: flex;
+        align-items: baseline;
+    }
+}
 
+&__vrap{
+    @media screen and (min-width:1200px){
+       width: 50%;
+    }
+}
 
 &__title{
     color: #FFF;
@@ -16,6 +27,10 @@
     letter-spacing: 2.1px;
     margin-bottom: 44px;
     
+    @media screen and (min-width:1200px){
+       padding-top: 84px;
+       text-align: start;
+    }
 }
 
 &__form{
@@ -23,6 +38,7 @@
     flex-direction: column;
     gap: 44px;
 
+    margin-bottom: 84px;
     @media screen and (min-width:720px){
         flex-direction: row;
         flex-wrap: wrap;
@@ -41,7 +57,6 @@ line-height: normal;
 letter-spacing: 1.1px;
 text-transform: uppercase;
 margin-bottom: 44px;
-
 }
 
 &__input{
@@ -56,6 +71,11 @@ margin-bottom: 44px;
         width: 323px;
     }
 
+
+    @media screen and (min-width:1200px){
+        width: 270px;
+    }
+  
 }
 
 
@@ -63,6 +83,10 @@ margin-bottom: 44px;
     @media screen and (min-width:720px){
         width: 690px;  
        }
+
+       @media screen and (min-width:1200px){
+        width: 570px;
+    }
        
 }
 
